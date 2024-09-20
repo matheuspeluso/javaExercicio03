@@ -8,6 +8,7 @@ import entities.Funcao;
 import entities.Funcionario;
 import entities.Setor;
 import interfaces.IFuncionarioRepository;
+import repositories.IFuncionarioRepositoryCSVImpl;
 import repositories.IFuncionarioRepositoryTXTImpl;
 
 public class FuncionarioController {
@@ -52,7 +53,7 @@ public class FuncionarioController {
 			iFuncionarioRepository = new IFuncionarioRepositoryTXTImpl();
 			break;
 		case "2":
-			//iFuncionarioRepository = new IFuncionarioRepositoryCSVImpl();
+			iFuncionarioRepository = new IFuncionarioRepositoryCSVImpl();
 			break;
 		}
 		iFuncionarioRepository.exportar(funcionario);

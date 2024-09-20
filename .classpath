@@ -7,5 +7,9 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/DevMatheusPeluso-Java/workspace/lombok-1.18.34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/DevMatheusPeluso-Java/workspace/jackson-dataformat-csv-2.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/DevMatheusPeluso-Java/workspace/jackson-annotations-2.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/DevMatheusPeluso-Java/workspace/jackson-core-2.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/DevMatheusPeluso-Java/workspace/jackson-databind-2.17.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
